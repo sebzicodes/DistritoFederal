@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Ariel, sans-serif;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 30px;
+  margin-right: 20px;
+}
+.hamburger span {
+  height: 4px;
+  width: 100%;
+  background: white;
+  margin: 4px;
+  border-radius: 2px;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.menu li {
+  padding: 10px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
