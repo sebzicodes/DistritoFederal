@@ -7,76 +7,92 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <div class="bento" id="bento">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu" id="menu">
-        <a href="index.html">Home</a>
-        <a href="food.html">Authentic Mexican Food</a>
-        <a href="drink.html">Spirits</a>
-        <a href="events.html">Events</a>
-        <a href="about&contact.html">About & Contact</a>
-      </div>
+    <nav class="bento-menu">
+      <button
+        class="bento"
+        id="bento"
+        aria-label="bento"
+        aria-controls="open navigation menu"
+        aria-expand="false"
+      >
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+      </button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="food.html">Cuisine</a></li>
+        <li><a href="drink.html">Bar</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about&contact.html">About and Contact</a></li>
+      </ul>
     </nav>
     <h1>Distrito Federal</h1>
-    <h2></h2>
-    <div class="container">
-      <div class="side-text">
-        <span>C</span><span>U</span><span>I</span><span>S</span><span>I</span
-        ><span>N</span><span>E</span>
-      </div>
-      <div class="box">
-        <img
-          src="https://www.productosreal.com/wp-content/uploads/2019/09/AdobeStock_205566472-1024x683.png"
-        />
-        <div class="content">
-          <h2>Authentic Mexican Cuisine</h2>
-          <p>
-            Experience the vibrancy of our authenticly prepared mexican cuisine.
-            Anyone craving a taste of mexico will be keen to sample our plates.
-            Anything from molcajetes, tacos, and enchilladas, weve got you! Menu
-            items enjoyed and curated by Chef Geo!
-          </p>
-          <a href="food.html">Cocina</a>
-        </div>
-      </div>
-      <div class="side-text">
-        <span>S</span><span>P</span><span>I</span><span>R</span><span>I</span
-        ><span>T</span><span>S</span>
-      </div>
-      <div class="box">
-        <img src="https://killjoycocktail.com/wp-content/uploads/2021/07/killjoy-july-2021-13-1024x683.jpg" />
-        <div class="content">
-          <h2>Spirits, cocktails, and mocktails</h2>
-          <p>
-            Delve into our creative and delicious house made cocktails. A
-            combination of fresh fruits and carefully paired liqour are our
-            "tortilla and queso". Mocktails and cocktails wrought by our
-            incredible bar team and approved by owner, mixologist, and liqour
-            connisour, Issac Barrara!
-          </p>
-          <a href="drink.html">Bebidas</a>
-        </div>
-      </div>
-      <div class="side-text">
-        <span>E</span><span>V</span><span>E</span><span>N</span><span>T</span
-        ><span>S</span>
-      </div>
-      <div class="box">
-        <img
-          src="https://www.downtowncampbell.com/sites/default/files/styles/8-large_650/public/uploads/users/1/images/https%253A%252F%252Fcdn.evbuc.com%252Fimages%252F825544699%252F1212969634083%252F1%252Foriginal.20240812-202509?itok=RZY34yTA"
-        />
-        <div class="content">
-          <h2>Events and celebrations</h2>
-          <p></p>
-          <a href="Events">Eventos</a>
-        </div>
-      </div>
-    </div>
-
+    <h2>379 E Campbell Ave, Campbell, CA 95008</h2>
+    <p>
+      Welcome to Distrito Federal — a hidden gem of the Bay Area. Founded in
+      2022 by Issac Barrera, Distrito Federal has quickly become the go-to
+      destination for both elevated and traditional Mexican cuisine, signature
+      craft cocktails, and immersive educational experiences like Taste of
+      Tequila. A true hospitality experience is defined by more than just great
+      food and drinks — it’s about creating a unique, classy atmosphere,
+      delivering top-shelf service, and showcasing professional expertise in
+      every way. Distrito Federal brings all three of these necessities together
+      in one top-notch establishment.
+    </p>
+    <section class="cuisine" id="cuisine">
+      <h2>Cuisine</h2>
+      <p>
+        At Distrito Federal, we take pride in offering a truly memorable take on
+        elevated and traditional Mexican cuisine. From our signature Enchiladas
+        and tantalizing Molcajetes to our Specialty Tacos, every dish is crafted
+        with care, flavor, and authenticity. Our menu is curated and executed by
+        Chef Geo; Chef has been written about in multiple news articles due to
+        his passion for creating bold, vibrant Mexican flavors ensures that
+        every plate offers something more than meets the eye—a perfect balance
+        of tradition, creativity, and taste.
+      </p>
+      <img
+        src="https://www.productosreal.com/wp-content/uploads/2019/09/AdobeStock_205566472-1024x683.png"
+        alt=""
+      />
+      <button><a href="food.html">Peruse Menu</a></button>
+    </section>
+    <section class="bar" id="bar">
+      <h2>Bar</h2>
+      <p>
+        Since Distrito’s inception, our goal has been to craft extraordinary
+        drinks using the freshest ingredients. As a standard, we process all
+        juices in-house and prepare each cocktail with professional precision
+        and care. Creating specialty drinks is our passion, and each one is
+        designed to leave you with a memorable experience you’ll want to
+        revisit. Some of our most popular selections include the Lucid Dream—a
+        clarified pear and matcha cocktail; 24 Carrot—a tequila-based drink
+        featuring freshly juiced carrot and habanero-infused honey; and our
+        signature Mexican Carajillo, a beloved favorite among guests and staff
+        alike. Reserve a spot or stop by today!
+      </p>
+      <img
+        src="https://killjoycocktail.com/wp-content/uploads/2021/07/killjoy-july-2021-13-1024x683.jpg"
+        alt=""
+      />
+      <button><a href="drink.html">Imbibe</a></button>
+    </section>
+    <section class="events" id="events">
+      <h2>Events</h2>
+      <p>
+        From time to time, Distrito hosts events to celebrate our Mexican roots,
+        and bring our community together. The taste of Tequila is a notable
+        occasion that will bring to you the best high end craft cocktails paired
+        carefully with our highly rated cuisine. For more information regarding
+        these event times and dates, inquire within!
+      </p>
+      <img
+        src="https://www.downtowncampbell.com/sites/default/files/styles/8-large_650/public/uploads/users/1/images/https%253A%252F%252Fcdn.evbuc.com%252Fimages%252F825544699%252F1212969634083%252F1%252Foriginal.20240812-202509?itok=RZY34yTA"
+        alt=""
+      />
+      <button><a href="events.html">Events</a></button>
+    </section>
     <script src="script.js"></script>
   </body>
+  <footer><a href="about&contact.html">About and Contact</a></footer>
 </html>
